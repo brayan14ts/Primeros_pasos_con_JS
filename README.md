@@ -34,4 +34,4 @@ Aca encontrarás ejercicios básicos que he realizado para aprender la lógica d
 
 Estas ideas de ejercicios las he ido recopilando de distintos lugares (Platzi, RoxsRoss), algunas veces haciendo modificaciones en el enunciado o el requemiento.
 
-Bienvenido si quieres ofrecer mejoras a mi codigo 😉
+Bienvenido si quieres ofrecer mejoras a mi código 😉

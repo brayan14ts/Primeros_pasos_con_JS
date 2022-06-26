@@ -1,25 +1,23 @@
 //Generar array de cupones válidos a la fecha
+var cupones = ["CUPON25", "CUPON40", "MEGACUPON"];
 
 //Generar fórmulas de calculo de descuento
 function calcularDescuento(precio, cupon) {
   switch (cupon) {
-    case "CUPON25":
+    case cupones[0]:
       var porcentaje = 25;
-      var descuento = (precio * porcentaje) / 100;
       break;
-    case "CUPON40":
-      var porcentaje = 40;
-      var descuento = (precio * porcentaje) / 100;
+      case cupones[1]:
+        var porcentaje = 40;
       break;
-    case "MEGACUPON":
-      var porcentaje = 60;
-      var descuento = (precio * porcentaje) / 100;
+      case cupones[2]:
+        var porcentaje = 60;
       break;
     default:
       var porcentaje = 0;
-      var descuento = (precio * porcentaje) / 100;
   }
 
+  var descuento = (precio * porcentaje) / 100;
   var precioConDescuento = precio - descuento;
 
   switch (porcentaje) {
