@@ -1,7 +1,6 @@
-# PracticasJS
+# 👨‍💻 PracticasJS
 
-##Aca encontrarás ejercicios básicos que he realizado para aprender la lógica de JavaScript.
-##aca te dejo los enunciados de cada uno, y si quieres saber como los resolví, ve a las carpetas :)
+Aca encontrarás ejercicios básicos que he realizado para aprender la lógica de JavaScript. A continuación dejo los enunciados de cada uno, y si quieres saber como los resolví, ve a las carpetas 😀
 
 
 ## Práctica #1: Calculador de figuras geométricas
@@ -10,5 +9,5 @@
 - Agregar un boton que diga el valor de su area, solo si los lados del triangulo que has recibido es isosceles o equilatero.
 
 
-## Práctica #2: Precio con descuentos
+## Práctica #2: Producto con descuentos
 - Realiza una calculadora que reciba los parametros Precio del producto y % de descuento, debes retornar un mensaje que diga cual es el 'precio sin descuento', 'porcentaje de descuento' y 'porcentaje con descuento'.
