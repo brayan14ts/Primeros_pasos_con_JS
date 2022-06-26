@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Figuras Geométricas</title>
+</head>
+
+<center>
+
+    <body>
+        <header>
+            <h1>
+                Calculador de Figuras geométricas
+            </h1>
+            <p>Práctica #1 de JavaScript</p>
+        </header>
+        <br>
+        <section>
+            <h3>Calcula el área y perímetro de un Cuadrado</h3>
+            <form>
+                <label for="InputCuadrado">
+                    Ingresa cuanto mide sus lados:
+                </label>
+                <br>
+                <input id="InputCuadrado" type="number">
+                <br>
+                <button type="button" onclick="calcularPerimetroCuadrado()">
+                    Calcular el perímetro
+                </button>
+                <br>
+                <button type="button" onclick="calcularAreaCuadrado()">
+                    Calcular el área
+                </button>
+            </form>
+        </section>
+
+        <br><br>
+
+        <section>
+            <h3>Calcula el perímetro de un Triángulo</h3>
+            <form>
+                <p>Ingresa las medidas en cm los de los lados:</p>
+                <label for="InputLado1Triangulo">
+                    lado 1:
+                </label>
+                <br>
+                <input id="InputLado1Triangulo" type="number">
+                <br>
+                <label for="InputLado2Triangulo">
+                    lado 2:
+                </label>
+                <br>
+                <input id="InputLado2Triangulo" type="number">
+                <br>
+                <label for="InputBaseTriangulo">
+                    lado 3:
+                </label>
+                <br>
+                <input id="InputBaseTriangulo" type="number">
+                <br>
+                <button type="button" onclick="calcularPerimetroTriangulo()">
+                    Calcular el perímetro
+                </button>
+                <br>
+                <h4>Si tu triangulo es isosceles o equilatero</h4>
+                <label>
+                    Tambien puedes saber su altura: </label>
+                <br>
+                <button type="button" onclick="calcularAlturaTriangulo()">
+                    Calcular altura
+                </button>
+            </form>
+        </section>
+
+        <br>
+
+        <section>
+
+            </form>
+        </section>
+
+
+        <script src="./Calculador-figuras-geometricas.js"> </script>
+
+
+    </body>
+</center>
+
+</html>

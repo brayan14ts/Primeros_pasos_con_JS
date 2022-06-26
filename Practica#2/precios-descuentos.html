@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular precios con porcentaje de descuento</title>
+</head>
+
+<center>
+
+    <body>
+        <header>
+            <h1>
+                Calculador precio con descuento
+            </h1>
+            <p>Práctica #2 de JavaScript</p>
+        </header>
+        <br>
+
+        <section>
+            <h3>Calcular precio con descuento de tu producto:</h3>
+        </section>
+
+
+        <form>
+            <label for="inputPrice">Precio del producto</label><br>
+            <input id="inputPrice" type="number">
+            <br><br>
+            <label for="inputDescuento">% de descuento</label><br>
+            <input id="inputDescuento" type="number">
+            <br><br>
+            <button type="button" onclick="ButtonPriceConDescuento()">
+                Calcular precio con descuento
+            </button>
+        </form>
+
+        <p id="PriceResponse"></p>
+
+        <script src="./precios-descuentos.js"> </script>
+
+
+    </body>
+</center>
+
+</html>

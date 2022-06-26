@@ -3,12 +3,12 @@
 console.group("Cuadrado");
 //Perimetro de un cuadrado
 function perimetroCuadrado(lado) {
-  return "El perimetro del cuadrado mide: " + lado * 4 + "cm.";
+  return "El perimetro del cuadrado mide: " + (lado * 4) + "cm.";
 }
 
 //area del cuadrado
 function areaCuadrado(lado) {
-  return "El area del cuadrado mide: " + lado * lado + "cm^2.";
+  return "El area del cuadrado mide: " + (lado * lado) + "cm^2.";
 }
 console.groupEnd();
 
@@ -26,8 +26,7 @@ raiz = Math.sqrt;
 function alturaTriangulo(base, lado) {
   return (
     "La altura de tu triangulo isosceles es: " +
-    raiz(Math.pow(lado, 2) - Math.pow(base, 2) / 4) +
-    "cm."
+    raiz((lado**2) - ((base**2) / 4)) + "cm."
   );
 }
 
@@ -43,17 +42,17 @@ const PI = Math.PI;
 console.group("Circulo");
 //radio/diametro de un circulo
 function diametroCirculo(radio) {
-  return "El diametro del círculo mide: " + 2 * radio + "cm.";
+  return "El diametro del círculo mide: " + (2 * radio) + "cm.";
 }
 
 //Perimetro de un circulo
 function perimetroCirculo(radio) {
-  return "El perimetro del círculo mide: " + 2 * radio * PI + "cm.";
+  return "El perimetro del círculo mide: " + (2 * radio * PI) + "cm.";
 }
 
 //area del circulo
 function areaCirculo(radio) {
-  return "El area del círculo mide: " + radio * radio * PI + "cm^2.";
+  return "El area del círculo mide: " + (radio * radio * PI) + "cm^2.";
 }
 console.groupEnd();
 
@@ -98,6 +97,6 @@ function calcularAlturaTriangulo() {
     const altura = alturaTriangulo(value3, value1);
     alert(altura);
   } else {
-    alert("Tu triangulo no es isosceles");
+    alert("Tu triangulo no es isosceles ni equilatero");
   }
 }
