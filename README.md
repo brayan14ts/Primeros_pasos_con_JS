@@ -15,14 +15,14 @@ Aca encontrarás ejercicios básicos que he realizado para aprender la lógica d
 ## Práctica #3: Cupón de descuento (platzi)
 - Al ejercicio anterior, añade la opción de cupón de descuento, y elimina la opción que habías añadido de descuento ingresando el porcentaje.
 - Los cupones válidos son: 
-* CUPON25 que otorgo 25% de descuento.
-* CUPON40 que otorga 40% de descuento.
-* MEGACUPON que otorga 60% de descuento.
+    - CUPON25 que otorgo 25% de descuento.
+    - CUPON40 que otorga 40% de descuento.
+    - MEGACUPON que otorga 60% de descuento.
 - Cualquier otra opcion ingresada debe retornar "Cupón no válido o está vencido."
-NOTA:
-* Debes crear un array con los cupones.
-* Cambiar el input de % de descuento por un input de cupones.
-* Usar un condicional switch para aplicar cierto porcentaje de descuento en nuestros productos dependiendo del cupón que se haya elegido al presionar el botón del formulario.
+- NOTA:
+    - Debes crear un array con los cupones.
+    - Cambiar el input de % de descuento por un input de cupones.
+    - Usar un condicional switch para aplicar cierto porcentaje de descuento en nuestros productos dependiendo del cupón que se haya elegido al presionar el botón del formulario.
 
 
 ## Práctica #4: Pagar la cuenta (RoxsRoss)
