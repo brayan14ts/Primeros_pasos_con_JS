@@ -1,4 +1,4 @@
-# 👨‍💻 PracticasJS
+# 👨‍💻 Primeros pasos con JS
 
 Aca encontrarás ejercicios básicos que he realizado para aprender la lógica de JavaScript. A continuación dejo los enunciados de cada uno, y si quieres saber como los resolví, ve a las carpetas 😀
 
