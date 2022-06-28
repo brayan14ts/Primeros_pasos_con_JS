@@ -31,6 +31,30 @@ Aca encontrarás ejercicios básicos que he realizado para aprender la lógica d
 ## Práctica #5: Tu edad del año pasado, este año, y el próximo año (RoxsRoss)
 - Pide al usuario que indique su nombre y su edad. Como mensaje de salida le indicarás qué edad tuvo el año pasado y cuantos años tendrá el siguiente año. Ejemplo: [nombre] el año pasado tenías X años y el próximo año cumplirás Y años.
 
+## Práctica #6: Estadística (Platzi)
+- Investigar que es Promedio, Mediana y Moda.
+- Diseñar Una calculadora que permita insertar valores numericos, y tres botones para calcular el promedio, median y moda.
+
+## Práctica #7: Mediana de sueldos en Colombia (Platzi)
+- A partir de una lista de objetos que representan los sueldos en Colombia (ver en carpeta archivo sueldos.js), calcular:
+    -Cual es la mediana de sueldos en colombia.
+    -Cual es la mediana del 10% de los mejores sueldos en colombia.
+
+## Práctica #8: Calculadora de gastos personales
+- Diseña una calculadora para que un usuario pueda ingresar los siguientes parametros:
+        - Sueldo.
+        - Ingresos adicionales.
+        - Gastos en alquiler.
+        - Gastos expensas.
+        - Gastos electricidad.
+        - Gastos agua.
+        - Gastos gas.
+        - Gastos en comparas del Hogar.
+-Al valor restante, retornar mensaje: "Tienes para ahorrar en el mes $xxx"
+-Si el gasto en 'alquiler mas expensas' supera el 30% de los ingresos retornar mensaje: "Estas gastando mucho en alquiler".
+-Si el gasto en 'compras del hogar' supera el 20% de los ingresos retornar mensaje: "Estas gastando mucho en compras del hogar".
+-Si el gasto en cualquier otro parametro (Agua, Gas, Electricidad) supera el 5% de los ingresos retornar mensaje: "Se conciente con el medio ambiente, debes consumir menos".
+
 
 Estas ideas de ejercicios las he ido recopilando de distintos lugares (Platzi, RoxsRoss), algunas veces haciendo modificaciones en el enunciado o el requemiento.
 
