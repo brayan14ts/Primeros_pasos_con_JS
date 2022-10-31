@@ -2,7 +2,7 @@
 //la idea es traer orjetos del mundo real a código
 //los objetos tienen propiedades, las priopiedades tienen clave-valor
 
-var miAuto = {
+let miAuto = {
   marca: "Toyota",
   modelo: "Yaris",
   annio: 2022,

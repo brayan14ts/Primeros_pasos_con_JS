@@ -1,6 +1,6 @@
 //clases, generar una funcion constructora o template para poder crear instancias de ella.
 
-var auto1 = {
+let auto1 = {
   marca: "Toyota",
   modelo: "Yaris",
   annio: 2022,
@@ -19,5 +19,5 @@ function auto(marca, modelo, annio) {
 }
 
 //nueva objeto:
-var auto2 = new auto("Tesla", "Model 3", 2021);
-var auto3 = new auto("Tesla", "Model X", 2020);
+let auto2 = new auto("Tesla", "Model 3", 2021);
+let auto3 = new auto("Tesla", "Model X", 2020);

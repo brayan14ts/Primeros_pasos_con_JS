@@ -18,7 +18,11 @@ for (var i = 0; i < personas.length; i++) {
 //Hola, Maria
 
 
-//for de otra manera-------------------
+//for de otra manera FOR OF-------------------
 for (var persona of personas) {
   saludarPersonas(persona);
 }
+
+//for de otra manera FOR IN-------------------
+
+
